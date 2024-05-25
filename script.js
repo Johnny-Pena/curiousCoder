@@ -22,7 +22,7 @@ function palindromeChecker (str) {
     for(let i = 0; i < strArr.length/2; i++) {
       if (strArr[i] !== reversedStrArr[i]) {
         isPalindrome = false;
-        return firstCharUpper + " is NOT a palindrome";
+        return firstCharUpper + " is NOT a palindrome.";
       }
       }
     isPalindrome = true;
